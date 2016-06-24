@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC90DAE1D1BF7B9001A35E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC90DAD1D1BF7B9001A35E9 /* AppDelegate.swift */; };
+		5EC90DB01D1BF7B9001A35E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC90DAF1D1BF7B9001A35E9 /* ViewController.swift */; };
+		5EC90DB31D1BF7B9001A35E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC90DB11D1BF7B9001A35E9 /* Main.storyboard */; };
+		5EC90DB61D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EC90DB41D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodeld */; };
+		5EC90DB81D1BF7B9001A35E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC90DB71D1BF7B9001A35E9 /* Assets.xcassets */; };
+		5EC90DBB1D1BF7B9001A35E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC90DB91D1BF7B9001A35E9 /* LaunchScreen.storyboard */; };
+		5EC90DC61D1BF7B9001A35E9 /* SwitchVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC90DC51D1BF7B9001A35E9 /* SwitchVideoPlayerTests.swift */; };
+		5EC90DD11D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC90DD01D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC90DC21D1BF7B9001A35E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC90DA21D1BF7B9001A35E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC90DA91D1BF7B9001A35E9;
+			remoteInfo = SwitchVideoPlayer;
+		};
+		5EC90DCD1D1BF7B9001A35E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC90DA21D1BF7B9001A35E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC90DA91D1BF7B9001A35E9;
+			remoteInfo = SwitchVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EC90DAA1D1BF7B9001A35E9 /* SwitchVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC90DAD1D1BF7B9001A35E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EC90DAF1D1BF7B9001A35E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EC90DB21D1BF7B9001A35E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EC90DB51D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwitchVideoPlayer.xcdatamodel; sourceTree = "<group>"; };
+		5EC90DB71D1BF7B9001A35E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EC90DBA1D1BF7B9001A35E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EC90DBC1D1BF7B9001A35E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC90DC11D1BF7B9001A35E9 /* SwitchVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC90DC51D1BF7B9001A35E9 /* SwitchVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVideoPlayerTests.swift; sourceTree = "<group>"; };
+		5EC90DC71D1BF7B9001A35E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC90DCC1D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC90DD01D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVideoPlayerUITests.swift; sourceTree = "<group>"; };
+		5EC90DD21D1BF7B9001A35E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC90DA71D1BF7B9001A35E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC90DBE1D1BF7B9001A35E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC90DC91D1BF7B9001A35E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC90DA11D1BF7B9001A35E9 = {
+			isa = PBXGroup;
+			children = (
+				5EC90DAC1D1BF7B9001A35E9 /* SwitchVideoPlayer */,
+				5EC90DC41D1BF7B9001A35E9 /* SwitchVideoPlayerTests */,
+				5EC90DCF1D1BF7B9001A35E9 /* SwitchVideoPlayerUITests */,
+				5EC90DAB1D1BF7B9001A35E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC90DAB1D1BF7B9001A35E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC90DAA1D1BF7B9001A35E9 /* SwitchVideoPlayer.app */,
+				5EC90DC11D1BF7B9001A35E9 /* SwitchVideoPlayerTests.xctest */,
+				5EC90DCC1D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC90DAC1D1BF7B9001A35E9 /* SwitchVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5EC90DAD1D1BF7B9001A35E9 /* AppDelegate.swift */,
+				5EC90DAF1D1BF7B9001A35E9 /* ViewController.swift */,
+				5EC90DB11D1BF7B9001A35E9 /* Main.storyboard */,
+				5EC90DB71D1BF7B9001A35E9 /* Assets.xcassets */,
+				5EC90DB91D1BF7B9001A35E9 /* LaunchScreen.storyboard */,
+				5EC90DBC1D1BF7B9001A35E9 /* Info.plist */,
+				5EC90DB41D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodeld */,
+			);
+			path = SwitchVideoPlayer;
+			sourceTree = "<group>";
+		};
+		5EC90DC41D1BF7B9001A35E9 /* SwitchVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC90DC51D1BF7B9001A35E9 /* SwitchVideoPlayerTests.swift */,
+				5EC90DC71D1BF7B9001A35E9 /* Info.plist */,
+			);
+			path = SwitchVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		5EC90DCF1D1BF7B9001A35E9 /* SwitchVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC90DD01D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.swift */,
+				5EC90DD21D1BF7B9001A35E9 /* Info.plist */,
+			);
+			path = SwitchVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC90DA91D1BF7B9001A35E9 /* SwitchVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC90DD51D1BF7B9001A35E9 /* Build configuration list for PBXNativeTarget "SwitchVideoPlayer" */;
+			buildPhases = (
+				5EC90DA61D1BF7B9001A35E9 /* Sources */,
+				5EC90DA71D1BF7B9001A35E9 /* Frameworks */,
+				5EC90DA81D1BF7B9001A35E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchVideoPlayer;
+			productName = SwitchVideoPlayer;
+			productReference = 5EC90DAA1D1BF7B9001A35E9 /* SwitchVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC90DC01D1BF7B9001A35E9 /* SwitchVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC90DD81D1BF7B9001A35E9 /* Build configuration list for PBXNativeTarget "SwitchVideoPlayerTests" */;
+			buildPhases = (
+				5EC90DBD1D1BF7B9001A35E9 /* Sources */,
+				5EC90DBE1D1BF7B9001A35E9 /* Frameworks */,
+				5EC90DBF1D1BF7B9001A35E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC90DC31D1BF7B9001A35E9 /* PBXTargetDependency */,
+			);
+			name = SwitchVideoPlayerTests;
+			productName = SwitchVideoPlayerTests;
+			productReference = 5EC90DC11D1BF7B9001A35E9 /* SwitchVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EC90DCB1D1BF7B9001A35E9 /* SwitchVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC90DDB1D1BF7B9001A35E9 /* Build configuration list for PBXNativeTarget "SwitchVideoPlayerUITests" */;
+			buildPhases = (
+				5EC90DC81D1BF7B9001A35E9 /* Sources */,
+				5EC90DC91D1BF7B9001A35E9 /* Frameworks */,
+				5EC90DCA1D1BF7B9001A35E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC90DCE1D1BF7B9001A35E9 /* PBXTargetDependency */,
+			);
+			name = SwitchVideoPlayerUITests;
+			productName = SwitchVideoPlayerUITests;
+			productReference = 5EC90DCC1D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC90DA21D1BF7B9001A35E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ruby Software";
+				TargetAttributes = {
+					5EC90DA91D1BF7B9001A35E9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5EC90DC01D1BF7B9001A35E9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5EC90DA91D1BF7B9001A35E9;
+					};
+					5EC90DCB1D1BF7B9001A35E9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5EC90DA91D1BF7B9001A35E9;
+					};
+				};
+			};
+			buildConfigurationList = 5EC90DA51D1BF7B9001A35E9 /* Build configuration list for PBXProject "SwitchVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC90DA11D1BF7B9001A35E9;
+			productRefGroup = 5EC90DAB1D1BF7B9001A35E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC90DA91D1BF7B9001A35E9 /* SwitchVideoPlayer */,
+				5EC90DC01D1BF7B9001A35E9 /* SwitchVideoPlayerTests */,
+				5EC90DCB1D1BF7B9001A35E9 /* SwitchVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC90DA81D1BF7B9001A35E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC90DBB1D1BF7B9001A35E9 /* LaunchScreen.storyboard in Resources */,
+				5EC90DB81D1BF7B9001A35E9 /* Assets.xcassets in Resources */,
+				5EC90DB31D1BF7B9001A35E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC90DBF1D1BF7B9001A35E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC90DCA1D1BF7B9001A35E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC90DA61D1BF7B9001A35E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC90DB01D1BF7B9001A35E9 /* ViewController.swift in Sources */,
+				5EC90DAE1D1BF7B9001A35E9 /* AppDelegate.swift in Sources */,
+				5EC90DB61D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC90DBD1D1BF7B9001A35E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC90DC61D1BF7B9001A35E9 /* SwitchVideoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC90DC81D1BF7B9001A35E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC90DD11D1BF7B9001A35E9 /* SwitchVideoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC90DC31D1BF7B9001A35E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC90DA91D1BF7B9001A35E9 /* SwitchVideoPlayer */;
+			targetProxy = 5EC90DC21D1BF7B9001A35E9 /* PBXContainerItemProxy */;
+		};
+		5EC90DCE1D1BF7B9001A35E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC90DA91D1BF7B9001A35E9 /* SwitchVideoPlayer */;
+			targetProxy = 5EC90DCD1D1BF7B9001A35E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EC90DB11D1BF7B9001A35E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC90DB21D1BF7B9001A35E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EC90DB91D1BF7B9001A35E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC90DBA1D1BF7B9001A35E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EC90DD31D1BF7B9001A35E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC90DD41D1BF7B9001A35E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC90DD61D1BF7B9001A35E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkwem.data.center.SwitchVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EC90DD71D1BF7B9001A35E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkwem.data.center.SwitchVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EC90DD91D1BF7B9001A35E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkwem.data.center.SwitchVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchVideoPlayer.app/SwitchVideoPlayer";
+			};
+			name = Debug;
+		};
+		5EC90DDA1D1BF7B9001A35E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkwem.data.center.SwitchVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchVideoPlayer.app/SwitchVideoPlayer";
+			};
+			name = Release;
+		};
+		5EC90DDC1D1BF7B9001A35E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkwem.data.center.SwitchVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchVideoPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5EC90DDD1D1BF7B9001A35E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkwem.data.center.SwitchVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchVideoPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC90DA51D1BF7B9001A35E9 /* Build configuration list for PBXProject "SwitchVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC90DD31D1BF7B9001A35E9 /* Debug */,
+				5EC90DD41D1BF7B9001A35E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC90DD51D1BF7B9001A35E9 /* Build configuration list for PBXNativeTarget "SwitchVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC90DD61D1BF7B9001A35E9 /* Debug */,
+				5EC90DD71D1BF7B9001A35E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EC90DD81D1BF7B9001A35E9 /* Build configuration list for PBXNativeTarget "SwitchVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC90DD91D1BF7B9001A35E9 /* Debug */,
+				5EC90DDA1D1BF7B9001A35E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EC90DDB1D1BF7B9001A35E9 /* Build configuration list for PBXNativeTarget "SwitchVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC90DDC1D1BF7B9001A35E9 /* Debug */,
+				5EC90DDD1D1BF7B9001A35E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EC90DB41D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EC90DB51D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodel */,
+			);
+			currentVersion = 5EC90DB51D1BF7B9001A35E9 /* SwitchVideoPlayer.xcdatamodel */;
+			path = SwitchVideoPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EC90DA21D1BF7B9001A35E9 /* Project object */;
+}
